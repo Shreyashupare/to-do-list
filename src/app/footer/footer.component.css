@@ -1,0 +1,15 @@
+div{
+    background-color: rgb(240, 212, 187);
+    height:75px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+h4{
+    color: rgb(8, 2, 2);
+    text-shadow: 3px 3px 5px rgb(34, 6, 6);
+    font-size: x-large;
+    text-align: center;
+}

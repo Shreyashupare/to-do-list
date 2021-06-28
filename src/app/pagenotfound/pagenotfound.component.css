@@ -1,0 +1,19 @@
+th{
+    color: red;
+    font-size: xx-large;
+}
+/*div{
+    background-color: rgba(36, 35, 35, 0.849);
+}*/
+table{
+    position: fixed;
+    padding-left: 570px;
+    padding-right: 572px;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    background-color: rgba(36, 35, 35, 0.849);
+}
+td{
+    color:peachpuff;
+    text-align: center;
+}

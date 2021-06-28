@@ -1,0 +1,35 @@
+
+.menu:hover{
+    color:rgba(36, 35, 35, 0.849);
+    background-color: peachpuff;
+}
+ul{
+    background-color: rgb(15, 14, 14);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-top:0;
+    background-color: rgba(255, 218, 138, 0.932);
+}
+.menu{
+    border-right:1px solid peachpuff;
+    border-left: 1px solid peachpuff;
+    display: inline;
+    padding:15px;
+    color:cornsilk;
+}
+
+.user{
+    text-decoration: none;
+    float: right;
+    color:powderblue;
+    font-size: 25px;
+    padding-right: 30px;
+    list-style-type: none;
+}
