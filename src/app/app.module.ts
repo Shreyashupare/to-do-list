@@ -9,6 +9,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { FormsModule } from '@angular/forms';
+import { WritetaskComponent } from './writetask/writetask.component';
+import { TasklistComponent } from './tasklist/tasklist.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     ProfileComponent,
     PagenotfoundComponent,
-    TasksComponent
+    TasksComponent,
+    WritetaskComponent,
+    TasklistComponent
   ],
   imports: [
     BrowserModule,

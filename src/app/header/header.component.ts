@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
     this.userserice.setname().subscribe(user=>{
       this.Username = user;
+      console.log(this.Username);
     })
   }
 }

@@ -7,13 +7,13 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  name:string;
+  uname:string;
   email:string;
   constructor(private userservice:UsernameService) { }
 
   ngOnInit(): void {
   }
   givename(){
-    this.userservice.getname(this.name);
+     return this.userservice.getname(this.uname);
   }
 }

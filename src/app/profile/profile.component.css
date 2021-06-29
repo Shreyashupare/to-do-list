@@ -3,3 +3,13 @@ form{
     padding-top: 175px;
     padding-bottom: 175px;
 }
+input{
+    background-color: rgba(36, 35, 35, 0.849);
+    border:1px solid peachpuff;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+input:active{
+    border-color: red;
+}

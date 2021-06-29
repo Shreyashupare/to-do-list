@@ -13,6 +13,7 @@ export class UsernameService {
 
   getname(username:string){
     this.subject.next(username);
+    console.log("in service -"+ username);
   }
 
   setname():Observable<string>{
