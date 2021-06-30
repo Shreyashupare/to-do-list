@@ -1,8 +1,9 @@
-<p>tasklist works!</p>
-<!--
-<ul *ngFor="let item in items">
-    <li>{{item.title}}</li>
-    <li>{{item.content}}</li>
-</ul>
-
--->
+<div>
+    <h5>Tasks Remaining :</h5>
+    <ul *ngFor="let item of items">
+        <li><input type="checkbox" class="check" ></li>
+        <li class="text" id="text">Title : {{item.title}}</li>
+        <li class="remove"><button class="removebutton" (click)="removetask(item.title)">Remove</button></li><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li class="text" id="text">Description : {{item.content}}</li>
+    </ul>
+</div>

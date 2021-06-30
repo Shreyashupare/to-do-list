@@ -12,17 +12,22 @@ import { todo_item } from '../todoitem/todoitem';
 export class TasklistComponent implements OnInit {
   items:Array<todo_item>;
   constructor(private task:TaskslistService) { 
-
+  
   }
 
   ngOnInit(): void {
     let obj= new todo_item();
     this.task.givetask().subscribe(newitem=>{
-      obj.title = newitem[0].title;
-      obj.content = newitem[0].content;
+      this.items=newitem;
       //this.items.push(obj);
-      console.log(obj);
+      console.log(this.items);
     })
   }
-
+  removetask(removetitle:string){
+    for(var i=0; i< this.items.length; i++){
+      if(this.items[i].title == removetitle){
+        this.items.splice(i,1);
+        }
+    }
+  }
 }

@@ -1,0 +1,26 @@
+input{
+    background-color: rgba(36, 35, 35, 0.849);
+    padding: 4px;
+    color:powderblue;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width:250px;
+    border:1px solid peachpuff;
+    border-radius: 3px;
+}
+.create_task{
+    background-color: rgb(35, 204, 44);
+    color:indigo;
+    margin-left: 20px;
+    padding: 4px;
+}
+
+.create_task:hover{
+
+    box-shadow: 0 0 6px green;
+    transform: scaleX(1.2);
+}
+
+.des{
+    width: 92%;
+}

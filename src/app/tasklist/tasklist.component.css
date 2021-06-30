@@ -1,0 +1,37 @@
+h5{
+    color: white;
+    font-size: x-large;
+}
+
+li{
+    display: inline;
+}
+.remove{
+    float: right;
+}
+
+.removebutton{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border:2px solid black;
+    margin-right: 25px;
+}
+
+
+input:hover{
+    background-color: rgb(101, 219, 235);
+    box-shadow: 0 0 5px white;
+}
+
+.text{
+    color:powderblue;
+    border:1px solid peachpuff;
+    border-radius: 4px;
+    padding:5px;
+}
+
+div{
+    height: 100%;
+}

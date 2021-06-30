@@ -1,15 +1,30 @@
 form{
-    padding-left: 600px;
-    padding-top: 175px;
-    padding-bottom: 175px;
+    height:500px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
 }
 input{
     background-color: rgba(36, 35, 35, 0.849);
     border:1px solid peachpuff;
     border-radius: 7px;
     padding: 10px;
+    color:white;
 }
 
 input:active{
     border-color: red;
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(238, 50, 50);
+    border-radius: 3px;
+    color: white;
+}
+button:hover{
+    transform: scaleX(1.2);
+}
+label{
+    color: white;
 }
