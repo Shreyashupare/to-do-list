@@ -35,3 +35,17 @@ input:hover{
 div{
     height: 100%;
 }
+/*
+#check:checked ~ .text label{
+    text-decoration: line-through;
+}*/
+
+.todo-completed{
+    text-decoration: line-through;
+}
+
+p{
+    color: white;
+    font-size: x-large;
+    padding-left: 20px;
+}

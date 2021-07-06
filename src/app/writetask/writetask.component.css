@@ -13,6 +13,7 @@ input{
     color:indigo;
     margin-left: 20px;
     padding: 4px;
+    border-radius: 5px;
 }
 
 .create_task:hover{

@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./writetask.component.css']
 })
 export class WritetaskComponent implements OnInit {
-  Title:string="Title";
-  Description:string="Description";
+  Title:string;
+  Description:string;
   item:Array<todo_item> = [];
   
   constructor(private task:TaskslistService) { 

@@ -21,6 +21,7 @@ button{
     background-color: rgb(238, 50, 50);
     border-radius: 3px;
     color: white;
+    border-radius: 5px;
 }
 button:hover{
     transform: scaleX(1.2);

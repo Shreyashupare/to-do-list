@@ -11,6 +11,7 @@ import { todo_item } from '../todoitem/todoitem';
 })
 export class TasklistComponent implements OnInit {
   items:Array<todo_item>;
+  completed:boolean=false;
   constructor(private task:TaskslistService) { 
   
   }
@@ -21,6 +22,7 @@ export class TasklistComponent implements OnInit {
       this.items=newitem;
       //this.items.push(obj);
       console.log(this.items);
+      console.log(this.items.length);
     })
   }
   removetask(removetitle:string){
@@ -29,5 +31,8 @@ export class TasklistComponent implements OnInit {
         this.items.splice(i,1);
         }
     }
+  }
+  completeItem(): void {
+    this.completed= !this.completed;
   }
 }
