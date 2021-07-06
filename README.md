@@ -1,6 +1,12 @@
 # ToDoList
+#on checkbox checked the task marked as complete task by style:line-through, but need to implement for that specific task only what i did that changes style for all tasks
 
-day 1 todo list date 29 jun
+#body height for tasklist should be size of browser initially and increase according to number of tasks added in list
 
-    created components header, profile, tasks, footer.
-    tried to connect component profile to header to pass uservalue but something is wrong.
+#implement the task list in json file
+
+#still can add priority for tasks as low/medium/high
+
+#also deadline for task
+
+#may be reminder of task before deadline
