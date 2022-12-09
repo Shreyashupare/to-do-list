@@ -1,3 +1,7 @@
+About:
+
+    Simple To do list application in angular as hands-on while Training period during Persistent Internship
+
 #on checkbox checked the task marked as complete task by style:line-through,
 but need to implement for that specific task only what i did that changes style for all tasks
 
